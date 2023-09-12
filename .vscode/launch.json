@@ -1,0 +1,28 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Program",
+            // "program": "${workspaceFolder}/${file}",
+            "program": "${file}",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "module"
+        },
+        {
+            "name": "Launch Program",
+            // "program": "${workspaceFolder}/${file}",
+            "program": "../module.mjs",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "module"
+        }
+    ]
+}

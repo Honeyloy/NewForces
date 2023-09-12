@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="./style.css" rel="stylesheet" type="text/css">
+        <meta charset='utf-8' />
+    </head>
+    <body>
+        <div id="main">
+            <div id="header">
+                <a href="./" class="home">Home</a>
+            </div>
+        
+            </div>
+            <div class="content">
+                <div id="panel">asdffds
+                    <div class="info">
+                    </div>
+                    
+                    <input type="checkbox" id="acceleration_check" name="acceleration_check" value="" checked>
+                    <lable for="acceleration_check"> Acceleration rule</lable>
+                    <textarea class="acceleration" name="force_text" id="acceleration_force" cols="20" rows="5"></textarea>
+                    
+                    <input type="checkbox" id="collision_check" name="collision_check" checked>
+                    <lable for="collision_check"> Collisiont rule</lable>
+                    <textarea class="collision" name="force_text" id="collision_force" cols="20" rows="5"></textarea>
+                </div>
+                <div class="screen">
+                    <div class="info_box"></div>
+                    <canvas id="convas">
+                        If you see this message, that mean JavaScript file not loaded. 
+                        Try to reload page.
+                    </canvas>
+                    <!-- <div class="right">
+                        <a href="./" class="home">home</a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <script src="scripts/init.js" type="text/javascript" encoding="UTF-8"></script>
+        <script src="scripts/Object2D.js" type="text/javascript" encoding="UTF-8"></script>
+        <script src="scripts/Eye.js" type="text/javascript" encoding="UTF-8"></script>
+        <script src="scripts/main.js" type="text/javascript" encoding="UTF-8"></script>
+        <script src="scripts/script2.js" type="text/javascript" encoding="UTF-8"></script>
+    </body>
+</html>

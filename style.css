@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+/* #convas{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+} */
+body{
+    width: 100vw;
+    height: 100vh;
+}
+#header{
+    background-color: pink;
+    width: 100%;
+    height: 5%;
+    min-height: 50px;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+}
+.content{
+    display:inline-block;
+    background-color: yellow;
+    color: white;
+    font-size: 2em;
+    width: 100%;
+    height: 95%;
+    /* height: calc(100vh - 50px); */
+}
+#panel{
+    background-color: #0FF8;
+    /* display:inline-block; */
+    float:left;
+    /* display: inline; */
+    width: 30%;
+    height: 100%;
+    color: white;
+    /* font-size: 2em; */
+}
+.screen{
+    float: right;
+    /* word-break: break-all;  */
+    background-color: #f888;
+    /* display: inline; */
+    /* display: inline-block; */
+    /* width: 100px; */
+    width: 70%;
+    height: 100%;
+}
+.info_box{
+    position: absolute;
+    /* top: 50vh;
+    left: 5vw; */
+    float: left;
+    font-size: 20px;
+    color: black;
+    text-shadow: 1px 1px 1px #FFF,
+    1px -1px 1px #FFF,
+    -1px 1px 1px #FFF,
+    -1px -1px 1px #FFF;
+}
+input[type="checkbox"]{
+    text-size-adjust: 16px;
+}
+textarea{
+    margin: 2.5%;
+    width: 95%;
+    height: 30%;
+}
